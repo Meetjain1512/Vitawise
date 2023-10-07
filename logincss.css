@@ -1,0 +1,466 @@
+.login-page-copy,
+.login-page-copy * {
+  box-sizing: border-box;
+}
+.login-page-copy {
+  background: #f8f8f8;
+  border-radius: 35px;
+  width: 1850px;
+  height: 895px;
+  position: relative;
+  overflow: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  position: absolute;
+  inset: 0;
+}
+body{
+  font-family: 'Urbanist', sans-serif;
+}
+.rectangle-1352 {
+  background: #f8e4d8;
+  border-radius: 58px;
+  width: 1700px;
+  height: 70px;
+  position: absolute;
+  left: 50px;
+  top: 17px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  margin-left: 850px;
+  height: 100px;
+}
+.logomark {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 80px;
+  margin-top: -65px;
+}
+.main{
+  color: var(--mindful-gray-80, #4b3425);
+  text-align: center;
+  font: 200 30px "Urbanist", sans-serif;
+  position: relative;
+  /* margin-top: -110px; */
+}
+.psyche {
+  background: var(--mindful-gray-60, #926247);
+  border-radius: 1234px;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1549px;
+  top: 30px;
+}
+.button-icon {
+  background: var(--mindful-gray-white, #ffffff);
+  border-radius: 1000px;
+  padding: 16px;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+}
+.monotone-46-email-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+}
+.vector5 {
+  border-radius: 1234px;
+  border-style: solid;
+  border-color: var(--mindful-gray-80, #4b3425);
+  border-width: 2px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+  left: 3px;
+  top: 5px;
+}
+.vector6 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--mindful-gray-80, #4b3425);
+  border-width: 2px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 6px;
+  top: 0px;
+}
+.monotone-54-telephone {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.vita-wise {
+  color: #4b3425;
+  text-align: center;
+  font: 600 42px "Urbanist", sans-serif;
+  position: absolute;
+  left: 900px;
+  top: 28px;
+}
+ .rectangle-1366 {
+  background: #e5ead7;
+  border-radius: 48px;
+  width: 708px;
+  height: 785px;
+  position: absolute;
+  left: 1120px;
+  top: 110px;
+}
+/*
+.header {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1352 {
+  background: #f8e4d8;
+  border-radius: 58px;
+  width: 1800px;
+  height: 91px;
+  position: absolute;
+  left: 24px;
+  top: 30px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 49px);
+  top: calc(50% - 453px);
+}
+.logomark {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 118px;
+  height: 31px;
+  position: absolute;
+  left: 51px;
+  top: calc(50% - 455px);
+}
+.main-menu {
+  color: var(--mindful-gray-80, #4b3425);
+  text-align: center;
+  font: 600 24px "Urbanist", sans-serif;
+  position: relative;
+}
+.psyche {
+  background: var(--mindful-gray-60, #4b3425);
+  border-radius: 1234px;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1635px;
+  top: 43px;
+}
+.button-icon {
+  background: var(--mindful-gray-white, #ffffff);
+  border-radius: 1000px;
+  padding: 16px;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+.monotone-46-email-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+} */
+/* .vector5 {
+  border-radius: 1234px;
+  border-style: solid;
+  border-color: var(--mindful-gray-80, #4b3425);
+  border-width: 2px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+  left: 3px;
+  top: 5px;
+}
+.vector6 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--mindful-gray-80, #4b3425);
+  border-width: 2px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 6px;
+  top: 0px;
+}
+.monotone-54-telephone {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.vita-wise {
+  color: #4b3425;
+  text-align: left;
+  font: 700 32px "Urbanist", sans-serif;
+  position: absolute;
+  left: 720px;
+  top: 57px;
+} */
+.image-17 {
+  border-radius: 62px;
+  border-style: solid;
+  border-color: #4b3425;
+  border-width: 1px;
+  width: 364px;
+  height: 350px;
+  position: absolute;
+  left: 24px;
+  top: 530px;
+}
+.image-18 {
+  border-radius: 54px;
+  border-style: solid;
+  border-color: #4b3425;
+  border-width: 1px;
+  width: 394px;
+  height: 319px;
+  position: absolute;
+  left: 685px;
+  top: 340px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+.image-19 {
+  border-radius: 49px;
+  border-style: solid;
+  border-color: #4b3425;
+  border-width: 1px;
+  width: 396px;
+  height: 317px;
+  position: absolute;
+  left: 24px;
+  top: 100px;
+}
+.group-33947 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1361 {
+  background: #f8f8f8;
+  border-radius: 100px;
+  width: 665px;
+  height: 108px;
+  position: absolute;
+  left: 1145px;
+  top: 150px;
+}
+.line-6 {
+  position: absolute;
+  left: 789px;
+  top: 268px;
+  overflow: visible;
+}
+.text {
+  color: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font: 700 32px/160% "Urbanist", sans-serif;
+  position: absolute;
+  left: 1200px;
+  top: 181px;
+  width: 457px;
+  height: 57px;
+}
+.group-33948 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1362 {
+  background: #f8f8f8;
+  border-radius: 100px;
+  width: 665px;
+  height: 108px;
+  position: absolute;
+  left: 1145px;
+  top: 280px;
+}
+.line-7 {
+  position: absolute;
+  left: 789px;
+  top: 417px;
+  overflow: visible;
+}
+.text2 {
+  color: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font: 700 32px/160% "Urbanist", sans-serif;
+  position: absolute;
+  left: 1200px;
+  top: 310px;
+  width: 457px;
+  height: 57px;
+}
+.group-33949 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1367 {
+  background: #f8f8f8;
+  border-radius: 100px;
+  width: 665px;
+  height: 108px;
+  position: absolute;
+  left: 1145px;
+  top: 410px;
+}
+.line-8 {
+  position: absolute;
+  left: 789px;
+  top: 570px;
+  overflow: visible;
+}
+.text3 {
+  color: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font: 700 32px/160% "Urbanist", sans-serif;
+  position: absolute;
+  left: 1200px;
+  top: 443px;
+  width: 457px;
+  height: 57px;
+}
+.button-secondary {
+  background: var(--serenity-green-50, #9bb068);
+  border-radius: 1000px;
+  padding: 16px 8px 16px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  width: 665px;
+  height: 78px;
+  position: absolute;
+  left: 1140px;
+  top: 550px;
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.text4 {
+  color: var(--mindful-gray-white, #ffffff);
+  text-align: left;
+  font: 700 40px "Urbanist", sans-serif;
+  position: relative;
+}
+.button-icon2 {
+  background: var(--mindful-gray-white, #ffffff);
+  border-radius: 1234px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.monotone-04-arrow-right-sm {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.button-primary {
+  border-radius: 1000px;
+  border-style: solid;
+  border-color: #7d944d;
+  border-width: 1px;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 345px;
+  height: 63px;
+  position: absolute;
+  left: 1295px;
+  top: 803px;
+}
+.text5 {
+  color: var(--mindful-gray-80, #4b3425);
+  text-align: left;
+  font: 700 24px "Urbanist", sans-serif;
+  position: relative;
+}
+.don-t-have-an-account-sign-up {
+  text-align: left;
+  font: 700 24px "Urbanist", sans-serif;
+  position: absolute;
+  left: 1250px;
+  top: 700px;
+  width: 475px;
+  height: 51px;
+}
+.don-t-have-an-account-sign-up-span {
+  color: #000000;
+  font: 700 24px "Urbanist", sans-serif;
+}
+.don-t-have-an-account-sign-up-span2 {
+  color: #7d944d;
+  font: 700 24px "Urbanist", sans-serif;
+}
