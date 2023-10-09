@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Dosis&family=Noto+Sans&family=Urbanist:wght@500&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+  
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.header,
+.header *{
+  box-sizing: border-box;
+}
+.header {
+  position: absolute;
+  inset: 0;
+  
+}
+.rectangle-1352 {
+  background: #f8e4d8;
+  border-radius: 58px;
+  width: 1800px;
+  height: 70px;
+  position: absolute;
+  left: 50px;
+  top: 17px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  margin-left: 850px;
+  height: 100px;
+}
+.logomark {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 80px;
+  margin-top: -65px;
+}
+.main{
+  color: var(--mindful-gray-80, #4b3425);
+  text-align: center;
+  font: 200 30px "Urbanist", sans-serif;
+  position: relative;
+  /* margin-top: -110px; */
+  margin-left: -1620px;
+}
+.psyche {
+  background: var(--mindful-gray-60, #926247);
+  border-radius: 1234px;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  overflow: hidden;
+  top:-23px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1649px;
+  top: 30px;
+}
+.button-icon {
+  background: var(--mindful-gray-white, #ffffff);
+  border-radius: 1000px;
+  padding: 16px;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+}
+.monotone-46-email-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+}
+.vector5 {
+  border-radius: 1234px;
+  border-style: solid;
+  border-color: var(--mindful-gray-80, #4b3425);
+  border-width: 2px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+  left: 3px;
+  top: 5px;
+}
+.vector6 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--mindful-gray-80, #4b3425);
+  border-width: 2px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 6px;
+  top: 0px;
+}
+.monotone-54-telephone {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.vita-wise {
+  color: #4b3425;
+  text-align: center;
+  font: 600 42px "Urbanist", sans-serif;
+  position: absolute;
+  left: 900px;
+  top: 28px;
+}
+
+
+/* TRENDING CSS */
+.content{
+  display: block;
+}
+.trending{
+  margin-top: 12%;
+  /* border: 2px red solid; */
+  display: block;
+  margin-left: -75px;
+}
+.trending .trending-title{
+  text-align: center;
+  margin:0px auto;
+  
+}
+.trending .wrapper{
+  /* border: 2px red dashed; */
+  width:87%;
+  height: 350px;
+  margin:50px auto;
+  overflow: hidden;
+  
+}
+.trending .wrapper .post{
+  display:inline-block;
+  height: 300px;
+  width:350px;
+  background-color: white;
+  margin: 0px 10px;
+  box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+}
+.trending .wrapper .post .slider-img{
+  width:100%;
+  height:250px;
+}
+.trending .wrapper .post .article-info{
+  height:50px;
+  
+}
+.mid-container{
+   /* border: 2px solid black; */
+  display: flex;
+  margin:-20px 85px 0px 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding:80px 30px;
+  /* align-items: stretch; */
+}
+.mid-container .item{
+ margin:20px 20px;
+}
+.articles{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.latest-wrapper{
+  /* border: 1px solid black; */
+  width:1750px;
+  display:flex;
+}
+
+.latest-wrapper .larticle{
+  /* background-color: aqua; */
+  /* display: inline-block; */
+  height:350px;
+  width: 400px;
+  margin: 10px 10px;
+  
+}
+ul{
+  list-style: none;
+}
+
+
+/*footer*/
+.footer, .footer * {
+  box-sizing: border-box;
+  }
+.footer {
+ position: absolute;
+  inset: 0;
+  top: -1514px;
+ }
+
+.rectangle-2602 {
+ background: #f8e4d8;
+  width: 1880px;
+  height: 456px;
+  position: absolute;
+  left: 0px;
+ top: 3728px;
+ }
+
+.copywrite-2023 {
+ color: #4b3425;
+  text-align: left;
+  font: 800 16px 'Urbanist', sans-serif;
+  position: absolute;
+  left: 920px;
+ top: 4152px;
+  width: 124px;
+  height: 17px;
+ }
+
+.terms-conditions {
+ color: #4b3425;
+  text-align: left;
+  font: 600 32px 'Urbanist', sans-serif;
+  position: absolute;
+  left: 842px;
+ top: 3918px;
+ }
+
+._1800-1234-12 {
+ color: #4b3425;
+  text-align: left;
+  font: 700 24px 'Urbanist', sans-serif;
+  position: absolute;
+  left: 74px;
+ top: 3932px;
+  width: 183px;
+ }
+
+.vita-wise-footer {
+ color: #4b3425;
+  text-align: left;
+  font: 700 32px 'Urbanist', sans-serif;
+  position: absolute;
+  left: 70px;
+  top: 3784px;
+ }
+
+.vitawise-gmail-com {
+ color: #4b3425;
+  text-align: left;
+  font: 700 24px 'Urbanist', sans-serif;
+  position: absolute;
+  left: 74px;
+ top: 3887px;
+  width: 295px;
+ }
+
+.contact-us {
+ color: rgba(254, 129, 75, 0.80);
+  text-align: left;
+  font: 700 24px 'Urbanist', sans-serif;
+  position: absolute;
+  left: 74px;
+ top: 3850px;
+  width: 295px;
+ }
+
+.come-visit-us {
+ color: rgba(254, 129, 75, 0.80);
+  text-align: left;
+  font: 700 24px 'Urbanist', sans-serif;
+  position: absolute;
+  left: 67px;
+ top: 4002px;
+  width: 295px;
+ }
+
+.connect-with-us {
+ color: rgba(254, 129, 75, 0.80);
+  text-align: left;
+  font: 700 24px 'Urbanist', sans-serif;
+  position: absolute;
+  left: 1430px;
+ top: 4055px;
+  width: 295px;
+ }
+ 
+.streamline-computer-logo-facebook-1-media-facebook-social {
+ position: absolute;
+  left: 1434px;
+ top: 4115px;
+  overflow: visible;
+ }
+
+.streamline-computer-logo-google-media-google-social {
+ position: absolute;
+  left: 1507px;
+ top: 4115px;
+  overflow: visible;
+ }
+
+.mdi-instagram {
+ position: absolute;
+  left: 1653px;
+ top: 4115px;
+  overflow: visible;
+ }
+
+.uil-linkedin {
+ position: absolute;
+  left: 1726px;
+ top: 4115px;
+  overflow: visible;
+ }
+
+.simple-icons-x {
+ position: absolute;
+  left: 1580px;
+ top: 4115px;
+  overflow: visible;
+ }
+
+._123-health-avenue-wellnessville-healthland-54321-medi-care-nation {
+ color: #4b3425;
+  text-align: left;
+  font: 700 24px 'Urbanist', sans-serif;
+  position: absolute;
+  left: 67px;
+ top: 4041px;
+  width: 276px;
+  height: 122px;
+ }
+
+.fa-qs {
+ color: #4b3425;
+  text-align: left;
+  font: 600 32px 'Urbanist', sans-serif;
+  position: absolute;
+  left: 945px;
+ top: 3841px;
+ }
