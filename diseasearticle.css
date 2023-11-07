@@ -44,3 +44,7 @@ a {
 .container {
     margin-bottom: 40px;
 }
+
+p {
+    font-size: large;
+}
